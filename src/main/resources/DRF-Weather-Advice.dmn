@@ -8,6 +8,9 @@
     </dmn:allowedValues>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_089F45AF-9CB0-45E1-BBA6-FE533C62C9BF" name="weather" isCollection="false">
+    <dmn:itemComponent id="_EF5FB7FA-9249-4EC6-B235-532A8F948929" name="location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_9CE45F68-F83C-4898-B4AA-CDF18D2719CA" name="temperature" isCollection="false">
       <dmn:typeRef>temperature</dmn:typeRef>
     </dmn:itemComponent>
